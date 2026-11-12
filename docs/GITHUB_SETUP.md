@@ -8,9 +8,9 @@ the `gh` commands below work once `gh` is installed.
 
 Use:
 
-> Structured evidence triage for internal audit: hunting, triage, and
-> investigation with audit-grade evidence, findings, and a public-safe
-> overlay pattern.
+> Internal audit evidence triage for AI agents: hunting, exception
+> triage, and investigation with audit-grade evidence, findings, and
+> reporting references. Synthetic examples only.
 
 ## Topics
 
