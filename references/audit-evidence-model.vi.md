@@ -50,7 +50,7 @@ Tối thiểu cần ghi:
 | Toàn vẹn | Mã băm, dung lượng, định dạng, số trang hoặc số dòng |
 | Trạng thái | Hiện hành, bị thay thế, đã ban hành, tham khảo, bản nháp, chưa xác nhận, khoảng trống |
 | Truy vết | Vị trí trích dẫn chính xác, hồ sơ làm việc liên quan, phát hiện liên quan |
-| Trách nhiệm | Người thu thập, ngày thu thập, người soát xét |
+| Trách nhiệm | Người thu thập, ngày thu thập, người rà soát |
 | Giới hạn | Điều bằng chứng không chứng minh được, khoảng trống, hạn chế truy cập |
 
 Tổ chức có thể thêm trường. Không ép một số cột cố định.

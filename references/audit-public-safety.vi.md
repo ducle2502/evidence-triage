@@ -83,7 +83,7 @@ Chạy quét trước mỗi lần commit. Không đưa danh sách từ khóa và
 
 ## Đọc thủ công
 
-Quét tự động bỏ sót ngữ cảnh. Đọc từng tệp như thể bạn là người soát xét pháp lý hoặc tuân thủ của tổ chức. Hỏi:
+Quét tự động bỏ sót ngữ cảnh. Đọc từng tệp như thể bạn là người rà soát pháp lý hoặc tuân thủ của tổ chức. Hỏi:
 
 - Người đọc có nhận diện được tổ chức từ tổ hợp chi tiết không?
 - Có thể nhận diện cá nhân hoặc hệ thống đang vận hành từ nội dung không?
@@ -93,11 +93,11 @@ Quét tự động bỏ sót ngữ cảnh. Đọc từng tệp như thể bạn 
 
 Nếu câu trả lời cuối là có, dùng ví dụ chung.
 
-## Người soát xét thứ hai
+## Người rà soát thứ hai
 
 Trước khi commit:
 
-1. Người soát xét thứ hai đọc bản sửa đổi công khai, không chỉ tên tệp.
+1. Người rà soát thứ hai đọc bản sửa đổi công khai, không chỉ tên tệp.
 2. Danh sách từ khóa và các câu hỏi đọc thủ công được kiểm tra lại.
 3. Xác nhận được ghi vào hồ sơ nội bộ, không ghi vào nội dung công khai.
 4. Nếu chưa chắc, bỏ hoặc trừu tượng thêm.
@@ -135,13 +135,13 @@ Xóa tệp ở một commit sau không xóa khỏi lịch sử. Coi mọi thứ 
 - [ ] Đã xóa siêu dữ liệu, bình luận và theo dõi sửa.
 - [ ] Quét từ khóa cấm đạt.
 - [ ] Đọc thủ công đạt.
-- [ ] Người soát xét thứ hai xác nhận.
+- [ ] Người rà soát thứ hai xác nhận.
 - [ ] Tuyên bố công khai chính xác.
 - [ ] Lịch sử sạch hoặc đang xử lý theo quy trình sự cố.
 
 ## Điểm cần điều chỉnh
 
 - Từ khóa nào là nhạy cảm với tổ chức này?
-- Ai là người soát xét thứ hai?
+- Ai là người rà soát thứ hai?
 - Kênh phê duyệt nào áp dụng trước khi đưa lên công khai?
 - Chính sách lưu giữ và xử lý sự cố nào áp dụng?

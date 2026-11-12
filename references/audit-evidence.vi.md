@@ -56,7 +56,7 @@ Mỗi phép thử cần để lại một cặp tệp và một ghi chú ngắn:
 - Ghi chú nêu mục tiêu, tổng thể, nguồn, bộ lọc, cách diễn giải, giới hạn và kết luận.
 - Liên kết từ ghi chú đến tệp truy vấn và tệp kết quả.
 
-Dùng cấu trúc thư mục trong `output-conventions.md`. Nếu kết quả không chạy lại được hoặc không truy được về truy vấn, kết quả đó không phải bằng chứng đứng vững khi bị soát xét.
+Dùng cấu trúc thư mục trong `output-conventions.md`. Nếu kết quả không chạy lại được hoặc không truy được về truy vấn, kết quả đó không phải bằng chứng đứng vững khi bị rà soát.
 
 ## Chuỗi bảo quản
 
@@ -96,7 +96,7 @@ Kết quả âm nghĩa là phép thử không tìm thấy điều kiện. Kết 
 - Cách diễn giải:
 - Giới hạn:
 - Kết luận:
-- Người soát xét:
+- Người rà soát:
 ```
 
 Giữ mẫu đủ ngắn để người khác dùng. Một bản ghi đầy đủ và giản dị tốt hơn một mẫu cầu kỳ không ai điền.

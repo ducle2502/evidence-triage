@@ -109,9 +109,9 @@ Giữ sổ ngắn cho mỗi kết luận trọng yếu:
 - bằng chứng ủng hộ và phản bác.
 - giả định phải đúng.
 - phương án khác đã xem xét và lý do loại bỏ.
-- quyết định và người soát xét.
+- quyết định và người rà soát.
 
-Đây không phải báo cáo. Đây là dấu vết để người soát xét thấy cách kết luận được hình thành, kể cả các nhánh đã bỏ.
+Đây không phải báo cáo. Đây là dấu vết để người rà soát thấy cách kết luận được hình thành, kể cả các nhánh đã bỏ.
 
 ## Độ tin cậy và thang kết luận
 
@@ -124,7 +124,7 @@ Với mỗi kết luận trọng yếu, ghi:
 - bằng chứng có sức nặng nhất.
 - bằng chứng có thể làm thay đổi kết luận.
 - điều kiện sửa đổi kết luận.
-- người soát xét chịu trách nhiệm.
+- người rà soát chịu trách nhiệm.
 
 Dùng thang kết luận trong hồ sơ cuộc kiểm toán. Ví dụ gồm đạt, cần cải thiện, không đạt. Đây là ví dụ, không phải thang bắt buộc.
 

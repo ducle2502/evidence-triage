@@ -16,7 +16,7 @@ Bản tiếng Anh: [`audit-index.md`](audit-index.md).
 | Kiểm tra luận điểm và kết luận | `audit-claim-and-conclusion.vi.md` | `audit-claim-and-conclusion.md` |
 | Thiết kế báo cáo | `audit-report-architecture.vi.md` | `audit-report-architecture.md` |
 | Viết và biên tập | `audit-drafting-and-style.vi.md` | `audit-drafting-and-style.md` |
-| Soát xét bản nháp | `audit-review-lenses.vi.md` | `audit-review-lenses.md` |
+| Rà soát bản nháp | `audit-review-lenses.vi.md` | `audit-review-lenses.md` |
 | Phát hành báo cáo | `audit-release-and-issuance.vi.md` | `audit-release-and-issuance.md` |
 | Tra cứu lỗi thường gặp | `audit-failure-modes.vi.md` | `audit-failure-modes.md` |
 | Chuẩn bị ví dụ công khai | `audit-public-safety.vi.md` | `audit-public-safety.md` |
@@ -57,7 +57,7 @@ Mô hình bằng chứng ---> Sàng lọc bằng chứng ---> Luận điểm và
                                             Kiến trúc báo cáo ---> Viết
                                                        |                 |
                                                        v                 v
-                                                 Soát xét <--- Lỗi thường gặp
+                                                 Rà soát <--- Lỗi thường gặp
                                                        |
                                                        v
                                             Phát hành báo cáo

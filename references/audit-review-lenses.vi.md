@@ -1,6 +1,6 @@
-# Soát xét theo lăng kính
+# Rà soát theo lăng kính
 
-Soát xét là tập lăng kính, không phải một nghi thức cố định. Mỗi lăng kính là một phạm vi tập trung, không phải một bước bắt buộc. Chọn lăng kính theo rủi ro, loại báo cáo, người đọc và giai đoạn công việc.
+Rà soát là tập lăng kính, không phải một nghi thức cố định. Mỗi lăng kính là một phạm vi tập trung, không phải một bước bắt buộc. Chọn lăng kính theo rủi ro, loại báo cáo, người đọc và giai đoạn công việc.
 
 Không dùng hai mươi người đọc cùng một phạm vi. Dùng một số lăng kính độc lập, mỗi lăng kính có câu hỏi rõ và kết quả được ghi lại.
 
@@ -41,7 +41,7 @@ Một lăng kính có thể chạy theo góc nhìn:
 - lãnh đạo cần điều kiện và điểm dừng
 - đơn vị được kiểm toán cần phát hiện công bằng, cụ thể và làm được
 - chuyên gia kỹ thuật cần bằng chứng và độ bất định
-- người soát xét kế tiếp cần dấu vết nguồn
+- người rà soát kế tiếp cần dấu vết nguồn
 - người đọc bên ngoài chỉ có báo cáo.
 
 Không yêu cầu mọi người đọc toàn bộ báo cáo. Hỏi mỗi vai câu hỏi mà vai đó phải trả lời.
@@ -90,14 +90,14 @@ Dùng một mẫu thống nhất:
 | Trường | Nội dung |
 | --- | --- |
 | Lăng kính | Phạm vi đã rà soát |
-| Người soát xét | Ai rà soát |
+| Người rà soát | Ai rà soát |
 | Phạm vi | Nội dung trong và ngoài |
 | Kết quả | Đạt, không đạt hoặc có điều kiện |
 | Bằng chứng | Trang, số hoặc phần cụ thể đã xem |
 | Ngoại lệ | Điều sai hoặc thiếu |
 | Hành động | Cần sửa gì và ai chịu trách nhiệm |
 
-Không để người soát xét âm thầm viết lại kết luận. Người soát xét ghi ngoại lệ. Chủ sở hữu quyết định và ghi lại thay đổi.
+Không để người rà soát âm thầm viết lại kết luận. Người rà soát ghi ngoại lệ. Chủ sở hữu quyết định và ghi lại thay đổi.
 
 ## Ba phép thử
 
@@ -117,15 +117,15 @@ Kiến nghị chưa đạt nếu không làm được, không kham nổi chi ph�
 
 Trước khi ký duyệt cuối, rời báo cáo, đọc lại sổ lập luận rồi đọc báo cáo lần nữa. Khoảng lặng giúp thấy giả định vô hình khi đang viết và câu chữ chỉ người viết hiểu.
 
-## Hồ sơ soát xét
+## Hồ sơ rà soát
 
 Giữ hồ sơ cùng gói báo cáo:
 
 - lăng kính đã chọn và lý do
-- tên hoặc vai người soát xét
+- tên hoặc vai người rà soát
 - ngoại lệ và cách xử lý
 - bất đồng còn lại
-- chữ ký của người soát xét chịu trách nhiệm.
+- chữ ký của người rà soát chịu trách nhiệm.
 
 Một cuộc rà soát không để lại hồ sơ không khác gì không có rà soát.
 

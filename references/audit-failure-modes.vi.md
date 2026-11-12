@@ -58,13 +58,13 @@ Danh mục không đầy đủ. Nếu gặp kiểu mới, thêm vào và ánh x�
 
 | Lỗi | Dấu hiệu | Vì sao sai | Cách sửa | Phòng ngừa |
 | --- | --- | --- | --- | --- |
-| Người soát xét sửa kết luận | Người soát xét viết lại phát hiện | Chủ sở hữu mất trách nhiệm | Ghi ngoại lệ, để chủ sở hữu quyết định | Tách soát xét khỏi sở hữu |
-| Một người soát mọi thứ | Cùng người kiểm tra số, nhân quả, ngôn ngữ và gói | Không đủ chuyên môn và chú ý | Giao lăng kính độc lập | Dùng danh mục lăng kính |
+| Người rà soát sửa kết luận | Người rà soát viết lại phát hiện | Chủ sở hữu mất trách nhiệm | Ghi ngoại lệ, để chủ sở hữu quyết định | Tách rà soát khỏi sở hữu |
+| Một người rà soát mọi thứ | Cùng người kiểm tra số, nhân quả, ngôn ngữ và gói | Không đủ chuyên môn và chú ý | Giao lăng kính độc lập | Dùng danh mục lăng kính |
 | Không kiểm tra bác bỏ | Chỉ hỏi "có được chống đỡ không" | Kết luận yếu vẫn sống | Chạy kiểm tra đảo kết luận | Thêm lăng kính phản biện |
 | Không mô phỏng phản biện | Nhóm giả định báo cáo sẽ được chấp nhận | Không chuẩn bị cho chất vấn | Mô phỏng công bố và phản biện | Thêm lăng kính phản biện |
 | Không xét hệ quả ngoài ý muốn | Kiến nghị tạo rủi ro mới | Cách sửa thành vấn đề tiếp theo | Kiểm tra tác động bậc hai | Thêm lăng kính hệ quả |
-| Soát xét trùng lặp | Nhiều người đọc cùng phạm vi | Tốn công mà không thêm bảo đảm | Giao phạm vi khác nhau | Lập kế hoạch theo lăng kính |
-| Không có hồ sơ | Không chứng minh được đã soát gì | Soát xét không kiểm toán được | Ghi lăng kính, phạm vi, kết quả, bằng chứng, người soát | Dùng bảng điểm soát xét |
+| Rà soát trùng lặp | Nhiều người đọc cùng phạm vi | Tốn công mà không thêm bảo đảm | Giao phạm vi khác nhau | Lập kế hoạch theo lăng kính |
+| Không có hồ sơ | Không chứng minh được đã rà soát gì | Rà soát không kiểm toán được | Ghi lăng kính, phạm vi, kết quả, bằng chứng, người rà soát | Dùng bảng điểm rà soát |
 
 ## Lỗi phát hành
 

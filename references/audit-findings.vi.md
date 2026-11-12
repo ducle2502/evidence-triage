@@ -55,7 +55,7 @@ Không tự tạo ngưỡng riêng cho tổ chức. Nếu tổ chức có thang 
 
 ## Cấu trúc báo cáo
 
-Một báo cáo điều tra đứng vững khi bị soát xét thường có:
+Một báo cáo điều tra đứng vững khi bị rà soát thường có:
 
 1. **Mục tiêu và phạm vi.** Đã kiểm tra gì và chưa kiểm tra gì.
 2. **Phương pháp.** Tổng thể, nguồn, phép thử và công cụ.

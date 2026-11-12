@@ -1,6 +1,6 @@
 # Kiến trúc báo cáo kiểm toán
 
-Báo cáo phải giúp người đọc quyết định, giúp người soát xét truy vết và giúp đơn vị được kiểm toán hành động. Đọc tệp này cùng `audit-findings.vi.md`. Tệp đó trình bày cấu trúc phát hiện. Tệp này trình bày kiến trúc bao quanh các phát hiện.
+Báo cáo phải giúp người đọc quyết định, giúp người rà soát truy vết và giúp đơn vị được kiểm toán hành động. Đọc tệp này cùng `audit-findings.vi.md`. Tệp đó trình bày cấu trúc phát hiện. Tệp này trình bày kiến trúc bao quanh các phát hiện.
 
 Không coi các cấu trúc dưới đây là bắt buộc. Chọn mẫu phù hợp với loại báo cáo, người đọc và quyết định trong hồ sơ cuộc kiểm toán.
 

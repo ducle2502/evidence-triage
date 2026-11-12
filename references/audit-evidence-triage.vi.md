@@ -134,7 +134,7 @@ Giữ quyết định để người khác kiểm tra:
 - Trạng thái quyết định:
 - Giới hạn hoặc khoảng trống:
 - Hành động tiếp theo / người phụ trách / hạn:
-- Người soát xét:
+- Người rà soát:
 ```
 
 ## Điểm cần điều chỉnh

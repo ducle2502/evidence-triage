@@ -27,7 +27,7 @@ cho một nhóm hồ sơ.
 Khi nhận một yêu cầu mơ hồ, trợ lý AI thường chạy truy vấn theo nhiều
 hướng rồi trả về những quan sát trông lạ nhưng không chứng minh được
 điều gì. Công việc kiểm toán còn khó hơn: kết quả phải đứng vững khi bị
-rà soát. Người soát xét sẽ hỏi bạn đã kiểm tra tổng thể nào, chạy truy
+rà soát. Người rà soát sẽ hỏi bạn đã kiểm tra tổng thể nào, chạy truy
 vấn gì, và loại trừ khả năng khác ra sao.
 
 Skill trả lời những câu hỏi đó trước khi viết báo cáo:
@@ -36,7 +36,7 @@ Skill trả lời những câu hỏi đó trước khi viết báo cáo:
 - Đặt quy tắc để biết khi nào một thuộc tính chung đủ để nối hai đối
   tượng.
 - Yêu cầu bằng chứng có thể chạy lại và truy vết được.
-- Giữ mọi phiên làm việc trong một thư mục để người soát xét sau có thể
+- Giữ mọi phiên làm việc trong một thư mục để người rà soát sau có thể
   tiếp tục.
 
 ## Cách hoạt động

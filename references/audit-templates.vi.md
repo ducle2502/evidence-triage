@@ -65,7 +65,7 @@ Trạng thái độ phủ: đã phủ, phủ một phần, khoảng trống, ngo
 - Trạng thái quyết định:
 - Giới hạn hoặc khoảng trống:
 - Hành động tiếp theo, người phụ trách, hạn:
-- Người soát xét:
+- Người rà soát:
 ```
 
 ## Ma trận luận điểm và bằng chứng
@@ -109,12 +109,12 @@ ma_luan_diem,noi_dung_luan_diem,loai_luan_diem,ma_bang_chung,loai_bang_chung,do_
 | Kiểm soát bù trừ | Điều gì làm giảm tác động |
 | Hệ quả cuối | Kết quả liên quan đến quyết định |
 
-## Bảng điểm soát xét
+## Bảng điểm rà soát
 
 ```markdown
-# Bảng điểm soát xét
+# Bảng điểm rà soát
 
-| Lăng kính | Phạm vi | Kết quả | Bằng chứng | Ngoại lệ | Hành động | Người soát xét |
+| Lăng kính | Phạm vi | Kết quả | Bằng chứng | Ngoại lệ | Hành động | Người rà soát |
 | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |  |
 
@@ -128,7 +128,7 @@ Kết quả: đạt, không đạt, có điều kiện.
 
 ## Xác nhận
 
-- Người soát xét:
+- Người rà soát:
 - Ngày:
 - Bất đồng còn lại:
 ```

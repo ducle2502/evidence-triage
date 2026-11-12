@@ -70,6 +70,6 @@ Xóa trường không phải lúc nào cũng xóa rủi ro. Tổ hợp các trư
 
 Xóa tệp ở một commit sau không xóa khỏi lịch sử. Coi mọi thứ đã đưa lên kho công khai là đã lộ.
 
-## Soát xét
+## Rà soát
 
-Soát xét tệp này khi mức hiển thị của kho thay đổi hoặc khi có người đóng góp mới. Kho công khai hay không phụ thuộc vào nơi lưu trữ, không phải thiết lập trong tài liệu này.
+Rà soát tệp này khi mức hiển thị của kho thay đổi hoặc khi có người đóng góp mới. Kho công khai hay không phụ thuộc vào nơi lưu trữ, không phải thiết lập trong tài liệu này.
