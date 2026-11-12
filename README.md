@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner.svg" alt="evidence-triage banner">
+</picture>
+
 # evidence-triage
 
 < English | [Tiếng Việt](./README.vi.md) >
@@ -6,11 +11,6 @@
 ![Version](https://img.shields.io/badge/version-3.0.0-0F172A)
 [![CI](https://github.com/ducle2502/evidence-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/ducle2502/evidence-triage/actions/workflows/ci.yml)
 ![Synthetic data only](https://img.shields.io/badge/data-synthetic%20only-15803D)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner.svg" alt="evidence-triage banner">
-</picture>
 
 Evidence triage for internal audit teams. The skill looks for unusual
 patterns, ranks what deserves attention, and takes one cohort to a

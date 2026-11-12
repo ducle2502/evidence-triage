@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner.svg" alt="Banner evidence-triage">
+</picture>
+
 # evidence-triage
 
 < [English](./README.md) | Tiếng Việt >
@@ -6,11 +11,6 @@
 ![Version](https://img.shields.io/badge/version-3.0.0-0F172A)
 [![CI](https://github.com/ducle2502/evidence-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/ducle2502/evidence-triage/actions/workflows/ci.yml)
 ![Synthetic data only](https://img.shields.io/badge/data-synthetic%20only-15803D)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner.svg" alt="Banner evidence-triage">
-</picture>
 
 Skill phân loại bằng chứng cho nhóm kiểm toán nội bộ: tìm kiểu bất
 thường, xếp hạng việc cần xem trước, rồi đi đến kết luận bằng văn bản
