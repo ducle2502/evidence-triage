@@ -1,42 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="banner-title banner-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="banner-title banner-desc">
   <title id="banner-title">evidence-triage — structured evidence triage for internal audit</title>
   <desc id="banner-desc">Typographic banner with the wordmark evidence-triage above a three-phase strip: hunting, triage, investigation.</desc>
 
-  <rect width="1280" height="640" fill="#0F172A"/>
+  <rect width="1280" height="420" fill="#0F172A"/>
 
-  <line x1="96" y1="110" x2="1184" y2="110" stroke="#334155" stroke-width="1"/>
-  <rect x="96" y="106" width="8" height="8" fill="#22C55E"/>
+  <line x1="96" y1="50" x2="1184" y2="50" stroke="#334155" stroke-width="1"/>
+  <rect x="96" y="46" width="8" height="8" fill="#22C55E"/>
 
-  <text x="96" y="164" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="16" letter-spacing="4" fill="#22C55E">INTERNAL AUDIT / EVIDENCE WORKFLOW</text>
-  <text x="1184" y="164" text-anchor="end" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="12" letter-spacing="2" fill="#94A3B8">v3.0.0  ·  PUBLIC  ·  SYNTHETIC DATA</text>
+  <text x="96" y="90" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="16" letter-spacing="4" fill="#22C55E">INTERNAL AUDIT / EVIDENCE WORKFLOW</text>
+  <text x="1184" y="90" text-anchor="end" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="12" letter-spacing="2" fill="#94A3B8">v3.0.0  ·  PUBLIC  ·  SYNTHETIC DATA</text>
 
-  <text x="96" y="302" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="96" font-weight="700" letter-spacing="-2" fill="#F8FAFC">evidence-triage</text>
+  <text x="96" y="208" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="96" font-weight="700" letter-spacing="-2" fill="#F8FAFC">evidence-triage</text>
 
-  <rect x="96" y="342" width="96" height="4" fill="#22C55E"/>
+  <rect x="96" y="236" width="96" height="4" fill="#22C55E"/>
 
-  <text x="96" y="414" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="34" fill="#CBD5E1">Surface anomalies. Rank what matters.</text>
-  <text x="96" y="460" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="34" fill="#CBD5E1">Prove what happened.</text>
+  <text x="96" y="292" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="30" fill="#CBD5E1">Surface anomalies. Rank what matters.</text>
+  <text x="96" y="330" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="30" fill="#CBD5E1">Prove what happened.</text>
 
-  <line x1="96" y1="536" x2="1184" y2="536" stroke="#334155" stroke-width="1.5"/>
+  <line x1="96" y1="374" x2="1184" y2="374" stroke="#334155" stroke-width="1.5"/>
 
   <g>
-    <circle cx="96" cy="536" r="4" fill="#22C55E"/>
-    <text x="96" y="570" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">01</text>
-    <text x="96" y="596" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">HUNTING</text>
-    <text x="96" y="622" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#94A3B8">risk sensing</text>
+    <circle cx="96" cy="374" r="4" fill="#22C55E"/>
+    <text x="96" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">01</text>
+    <text x="128" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">HUNTING</text>
   </g>
 
   <g>
-    <circle cx="459" cy="536" r="4" fill="#22C55E"/>
-    <text x="459" y="570" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">02</text>
-    <text x="459" y="596" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">TRIAGE</text>
-    <text x="459" y="622" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#94A3B8">exception ranking</text>
+    <circle cx="459" cy="374" r="4" fill="#22C55E"/>
+    <text x="459" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">02</text>
+    <text x="491" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">TRIAGE</text>
   </g>
 
   <g>
-    <circle cx="822" cy="536" r="4" fill="#22C55E"/>
-    <text x="822" y="570" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">03</text>
-    <text x="822" y="596" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">INVESTIGATION</text>
-    <text x="822" y="622" font-family="IBM Plex Sans, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#94A3B8">documented conclusion</text>
+    <circle cx="822" cy="374" r="4" fill="#22C55E"/>
+    <text x="822" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="13" letter-spacing="2" fill="#22C55E">03</text>
+    <text x="854" y="406" font-family="JetBrains Mono, IBM Plex Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#F8FAFC">INVESTIGATION</text>
   </g>
 </svg>
