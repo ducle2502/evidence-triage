@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a routing, reference, or output problem in the skill.
+title: "[Bug]: "
+labels: ["type: bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is public. Do not include confidential, employer,
+        client, customer, or personal data. Use synthetic examples only.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and the phase you were in.
+      placeholder: The skill routed my request to triage, but...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Phase
+      options:
+        - Hunting
+        - Triage
+        - Investigation
+        - Installation
+        - Documentation
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Skill version
+      placeholder: "3.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproduction
+      description: Show the prompt and a synthetic data shape. Never paste real data.
+      render: markdown
+    validations:
+      required: false
+  - type: checkboxes
+    id: confidentiality
+    attributes:
+      label: Confidentiality
+      options:
+        - label: I have not included confidential, employer, client, customer, or personal data.
+          required: true

@@ -1,0 +1,49 @@
+name: Feature request
+description: Propose a reference, audit pattern, or workflow improvement.
+title: "[Feature]: "
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is public. Do not include confidential, employer,
+        client, customer, or personal data. Use synthetic examples only.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the audit or fraud workflow gap, not just the feature.
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Phase
+      options:
+        - Hunting
+        - Triage
+        - Investigation
+        - Cross-phase
+        - Documentation or tooling
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: A new reference, a rule change, or a workflow improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: checkboxes
+    id: confidentiality
+    attributes:
+      label: Confidentiality
+      options:
+        - label: I have not included confidential, employer, client, customer, or personal data.
+          required: true

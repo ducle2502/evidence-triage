@@ -1,0 +1,92 @@
+[
+  {
+    "name": "type: bug",
+    "color": "d73a4a",
+    "description": "A routing, reference, or output problem in the skill."
+  },
+  {
+    "name": "type: feature",
+    "color": "1d76db",
+    "description": "A new reference, audit pattern, or workflow improvement."
+  },
+  {
+    "name": "type: docs",
+    "color": "0075ca",
+    "description": "Documentation, translation, or repository setup."
+  },
+  {
+    "name": "type: question",
+    "color": "d876e3",
+    "description": "Usage or methodology question."
+  },
+  {
+    "name": "priority: P0",
+    "color": "b60205",
+    "description": "Emergency: the skill produces unsafe or unusable output."
+  },
+  {
+    "name": "priority: P1",
+    "color": "d93f0b",
+    "description": "High: blocks audit work or misroutes a phase."
+  },
+  {
+    "name": "priority: P2",
+    "color": "fbca04",
+    "description": "Medium: normal priority."
+  },
+  {
+    "name": "priority: P3",
+    "color": "0e8a16",
+    "description": "Low: nice to have."
+  },
+  {
+    "name": "status: needs-triage",
+    "color": "fbca04",
+    "description": "Not yet reviewed by a maintainer."
+  },
+  {
+    "name": "status: blocked",
+    "color": "6a737d",
+    "description": "Waiting on a dependency or decision."
+  },
+  {
+    "name": "status: needs-info",
+    "color": "d4c5f9",
+    "description": "Waiting on the reporter for more information."
+  },
+  {
+    "name": "area: skill",
+    "color": "5319e7",
+    "description": "SKILL.md routing, phase model, or shared principles."
+  },
+  {
+    "name": "area: references",
+    "color": "0052cc",
+    "description": "Phase, linkage, typology, evidence, or findings references."
+  },
+  {
+    "name": "area: docs",
+    "color": "1d76db",
+    "description": "README, architecture, guides, or translations."
+  },
+  {
+    "name": "area: ci",
+    "color": "bfd4f2",
+    "description": "Validation script, workflows, or repository tooling."
+  },
+  {
+    "name": "confidentiality",
+    "color": "b60205",
+    "description": "Confidential data exposure or public-repo safety issue."
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "A contained change suitable for a first contribution."
+  },
+  {
+    "name": "help wanted",
+    "color": "008672",
+    "description": "The maintainer would welcome a contribution."
+  }
+]

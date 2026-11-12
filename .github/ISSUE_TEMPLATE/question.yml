@@ -1,0 +1,31 @@
+name: Question
+description: Ask about using the skill in an audit workflow.
+title: "[Question]: "
+labels: ["type: question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is public. Do not include confidential, employer,
+        client, customer, or personal data. Use synthetic examples only.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and where are you stuck?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Phase, files read, and synthetic example of the data shape.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confidentiality
+    attributes:
+      label: Confidentiality
+      options:
+        - label: I have not included confidential, employer, client, customer, or personal data.
+          required: true

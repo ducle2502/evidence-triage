@@ -1,0 +1,18 @@
+# Local, organization-specific overlays — never commit these
+local/
+private/
+*.local.md
+*.private.md
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.code-workspace
+node_modules/
