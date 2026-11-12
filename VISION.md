@@ -6,7 +6,8 @@ This repo started from
 [finic-ai/fraud-investigation-skills](https://github.com/finic-ai/fraud-investigation-skills)
 under the MIT License. The three-phase method and the fraud typologies
 come from that project. This version reframes the skill for internal
-audit and adds material on evidence, findings, and confidentiality.
+audit and adds material on evidence, findings, and public-repository
+safety.
 
 ## Principles
 
@@ -28,7 +29,7 @@ Version 3.0.0 includes:
 
 - The three-phase method, reframed for audit.
 - Audit evidence and findings references.
-- A confidentiality reference and a private-overlay pattern.
+- Public-repo rules and a private-overlay pattern.
 - A standard layout for queries, extracts, and the running
   investigation document.
 - Repository docs, issue forms, labels, and validation CI.

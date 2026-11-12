@@ -38,9 +38,6 @@ audit concepts:
 - **Findings.** Condition, criteria, cause, effect, and recommendation.
   Keep fact, inference, and opinion apart. See
   `references/audit-findings.md`.
-- **Confidentiality.** This repository is public. It ships synthetic
-  examples and public frameworks only. See
-  `references/confidentiality.md`.
 - **Professional judgment.** The skill produces the analysis and
   evidence. The auditor owns the conclusion and signs the report.
   Follow the organization's methodology and the applicable standards,
@@ -82,7 +79,6 @@ This skill ships its own references:
 | `references/output-conventions.md` | Workspace folder layout and slug rules. |
 | `references/audit-evidence.md` | Audit evidence standards, workpaper conventions, and data-integrity checks. Read before documenting evidence in any phase. |
 | `references/audit-findings.md` | Turning analysis into a finding or conclusion: condition, criteria, cause, effect, recommendation. |
-| `references/confidentiality.md` | Before writing any artifact that could leave the workspace, and whenever real data is involved. |
 | `references/audit-index.md` | Entry point for the audit reporting set; reading order by task. |
 | `references/audit-engagement-profile.md` | Engagement type, report type, conclusion scale, and review depth. |
 | `references/audit-evidence-model.md` | Evidence intake: categories, source hierarchy, and custody. |
@@ -101,8 +97,8 @@ The router reads the English source; use the translation when the
 reader needs Vietnamese.
 
 In audit work, start with `audit-index.md` for the reporting set. Read
-`audit-evidence.md` and `confidentiality.md` before producing artifacts,
-and `audit-findings.md` before writing the conclusion.
+`audit-evidence.md` before producing artifacts, and `audit-findings.md`
+before writing the conclusion.
 
 Don't try to do hunting / triage / investigation from memory; the
 phase references are the heart of the skill.

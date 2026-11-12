@@ -9,8 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Internal audit layer: `references/audit-evidence.md`,
-  `references/audit-findings.md`, and `references/confidentiality.md`.
+- Internal audit layer: `references/audit-evidence.md` and
+  `references/audit-findings.md`, plus public-repo rules in
+  `CONTRIBUTING.md` and `SECURITY.md`.
 - Audit reporting set starting at `references/audit-index.md`:
   engagement profile, evidence model, evidence triage, claim testing,
   report architecture, drafting, review, failure modes, release,

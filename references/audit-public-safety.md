@@ -1,8 +1,9 @@
 # Audit Public Safety
 
 Rules for turning real audit experience into public examples without
-disclosing confidential information. Read `confidentiality.md` first;
-this file applies those rules to audit reporting material specifically.
+disclosing confidential information. This file applies the repository's
+contribution rules to audit reporting material; the full checklist is in
+[CONTRIBUTING.md](../CONTRIBUTING.md).
 
 The repository is public, and its git history with it.
 

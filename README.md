@@ -20,7 +20,7 @@ written conclusion.
 > This repository is public. Do not commit employer, client, customer,
 > or personal data, internal system or table names, tuned thresholds,
 > or real investigation output. Every example is synthetic. See
-> [references/confidentiality.md](references/confidentiality.md).
+> [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Why
 
@@ -62,9 +62,6 @@ the standards still govern the result.
   criteria, cause, effect, and recommendation. It also keeps fact,
   inference, and opinion apart. See
   [references/audit-findings.md](references/audit-findings.md).
-- **Confidentiality.** It keeps the public repo generic and moves
-  organization-specific knowledge into a private layer. See
-  [references/confidentiality.md](references/confidentiality.md).
 - **Judgment.** The skill assembles the evidence and the argument. The
   auditor rates and signs the conclusion.
 
@@ -161,7 +158,6 @@ evidence-triage/
 │   ├── output-conventions.md      # workspace layout and slug rules
 │   ├── audit-evidence.md          # evidence standards, workpapers, chain of custody
 │   ├── audit-findings.md          # condition / criteria / cause / effect / recommendation
-│   ├── confidentiality.md         # public-repo rules and redaction
 │   ├── audit-index.md             # entry point for the audit reporting set
 │   ├── audit-engagement-profile.md
 │   ├── audit-evidence-model.md
@@ -207,7 +203,7 @@ incidents. Keep that material out of this repo:
 
 The overlay can live anywhere. Never commit real data "temporarily",
 because git history keeps it. See
-[references/confidentiality.md](references/confidentiality.md).
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Origins
 

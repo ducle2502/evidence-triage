@@ -23,7 +23,6 @@ Bản tiếng Anh: [`audit-index.md`](audit-index.md).
 | Dùng biểu mẫu | `audit-templates.vi.md` | `audit-templates.md` |
 | Kiến thức nền về bằng chứng | `audit-evidence.vi.md` | `audit-evidence.md` |
 | Kiến thức nền về phát hiện | `audit-findings.vi.md` | `audit-findings.md` |
-| Quy tắc công khai | `confidentiality.vi.md` | `confidentiality.md` |
 
 ## Nguyên tắc chung
 
@@ -32,7 +31,7 @@ Bản tiếng Anh: [`audit-index.md`](audit-index.md).
 3. **Không bịa số.** Chỉ tiêu bị chặn hoặc chưa đo là một phát hiện, không phải số 0. Ghi rõ lý do chặn, bằng chứng còn thiếu và ảnh hưởng đến mức bảo đảm.
 4. **Chọn quy trình theo hồ sơ cuộc kiểm toán.** Dùng hồ sơ để chọn loại báo cáo, thang kết luận, độ sâu rà soát, cổng kiểm soát và bộ hồ sơ phát hành.
 5. **Giữ lịch sử phiên bản.** Giữ bản cũ và ghi nhận việc thay thế.
-6. **An toàn công khai.** Kho này là công khai. Đọc `confidentiality.vi.md` trước khi thêm bất kỳ tên, số, đường dẫn hoặc ảnh chụp nào.
+6. **An toàn công khai.** Kho này là công khai. Đọc `audit-public-safety.vi.md` trước khi thêm bất kỳ tên, số, đường dẫn hoặc ảnh chụp nào, và tuân theo quy tắc đóng góp trong `CONTRIBUTING.md`.
 7. **Giữ vai trò chuyên môn.** Tài liệu này chỉ hỗ trợ. Phương pháp luận của tổ chức, chuẩn mực áp dụng, ý kiến pháp lý và cấp phê duyệt vẫn là căn cứ cuối cùng.
 
 ## Giọng văn

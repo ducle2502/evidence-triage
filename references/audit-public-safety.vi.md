@@ -1,6 +1,6 @@
 # An toàn công khai
 
-Quy tắc chuyển kinh nghiệm kiểm toán thật thành ví dụ công khai mà không lộ thông tin mật. Đọc `confidentiality.vi.md` trước. Tệp này áp dụng quy tắc đó cho tài liệu báo cáo kiểm toán.
+Quy tắc chuyển kinh nghiệm kiểm toán thật thành ví dụ công khai mà không lộ thông tin mật. Tệp này áp dụng quy tắc đóng góp của kho cho tài liệu báo cáo kiểm toán. Danh sách kiểm tra đầy đủ ở [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Kho này là công khai. Mọi thứ đã đưa lên đều ai cũng đọc được, kể cả trong lịch sử phiên bản. Xóa ở lần sửa sau không thu hồi được.
 

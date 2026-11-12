@@ -23,8 +23,8 @@ drafting, review, and release.
 | Testing whether a conclusion is supported | `audit-claim-and-conclusion.md` | `audit-review-lenses.md` |
 | Designing the report | `audit-report-architecture.md` | `audit-drafting-and-style.md` |
 | Reviewing a draft | `audit-review-lenses.md` | `audit-failure-modes.md` |
-| Issuing a report | `audit-release-and-issuance.md` | `confidentiality.md` |
-| Preparing public examples | `confidentiality.md` | `audit-public-safety.md` |
+| Issuing a report | `audit-release-and-issuance.md` | `audit-public-safety.md` |
+| Preparing public examples | `audit-public-safety.md` | `../CONTRIBUTING.md` |
 | Building a workpaper or checklist | `audit-templates.md` | The relevant topic file |
 
 ## Global rules
@@ -42,8 +42,8 @@ drafting, review, and release.
 5. **No silent overwrite.** Evidence and report versions are append-only;
    preserve the prior version and record the supersession.
 6. **Public safety.** This repository is public. Read
-   `confidentiality.md` before adding any example, name, number, path, or
-   screenshot.
+   `audit-public-safety.md` before adding any example, name, number,
+   path, or screenshot, and follow the rules in `../CONTRIBUTING.md`.
 7. **Professional judgment prevails.** These files are aids, not a
    substitute for the organization's methodology, applicable standards,
    legal advice, or the approval authority.
@@ -66,7 +66,7 @@ evidence model ---> evidence triage ---> claim and conclusion
                                   release and issuance
                                              |
                                              v
-                                  public safety / confidentiality
+                                   public safety
 ```
 
 The arrows show a common path, not a required sequence. An engagement may

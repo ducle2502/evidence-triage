@@ -9,8 +9,8 @@ phase the request belongs to, and loads the reference files it needs.
 The repository has two layers:
 
 1. **Methodology:** the three-phase model and its reference files.
-2. **Audit layer:** evidence, findings, and confidentiality rules that
-   make the output usable in an audit file.
+2. **Audit layer:** evidence and findings rules that make the output
+   usable in an audit file.
 
 ## Components
 
@@ -23,7 +23,7 @@ The repository has two layers:
 | Output rules | `references/output-conventions.md` | Folder layout, slugs, artifact names |
 | Evidence layer | `references/audit-evidence.md` | Sufficiency, relevance, reliability, workpapers, custody |
 | Findings layer | `references/audit-findings.md` | Condition, criteria, cause, effect, recommendation |
-| Confidentiality | `references/confidentiality.md` | Public-repo rules, redaction, private overlay |
+| Contribution rules | `CONTRIBUTING.md`, `SECURITY.md` | Public-repo rules, redaction, and exposure response |
 | Audit reporting set | `references/audit-index.md` and the `audit-*.md` files | Engagement profile, evidence triage, claim testing, report design, drafting, review, release, public safety, templates |
 | Validation | `scripts/validate_skill.py` | Frontmatter, reference table, assets, secret patterns |
 | CI | `.github/workflows/ci.yml` | Markdown lint and skill validation |
@@ -41,7 +41,7 @@ flowchart TD
     classify -->|"Specific cohort"| investigation["Investigation"]
     hunting --> triage
     triage --> investigation
-    hunting --> evidence["Evidence + confidentiality layer"]
+    hunting --> evidence["Evidence + findings layer"]
     triage --> evidence
     investigation --> evidence
     evidence --> findings["Findings + conclusion"]
@@ -57,7 +57,8 @@ reference.
 - Triage reads its own reference and the linkage model.
 - Investigation reads its own reference, the linkage model, and the
   evidence layer.
-- Any phase that produces an artifact reads the confidentiality rules.
+- Any artifact destined for the public repository follows the rules in
+  [CONTRIBUTING.md](../CONTRIBUTING.md).
 - Any phase that writes a conclusion reads the findings layer.
 
 Every file under `references/` is listed in the `SKILL.md` table.
@@ -89,6 +90,10 @@ incidents belong in a private overlay:
 
 - a private repository, or
 - a local folder excluded by `.gitignore`.
+
+The contribution rules, redaction steps, and pre-commit checklist live
+in [CONTRIBUTING.md](../CONTRIBUTING.md); the exposure process lives in
+[SECURITY.md](../SECURITY.md).
 
 The public `SKILL.md` reference table must not name internal files. A
 private wrapper skill or a local copy of `SKILL.md` points at the

@@ -20,7 +20,7 @@ cho một nhóm hồ sơ.
 > Đây là kho công khai. Không đưa dữ liệu của cơ quan, khách hàng, cá
 > nhân, tên hệ thống hoặc bảng nội bộ, ngưỡng đã hiệu chỉnh, hay kết quả
 > điều tra thật vào kho. Mọi ví dụ đều là dữ liệu mô phỏng. Xem
-> [references/confidentiality.md](references/confidentiality.md).
+> [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Vì sao
 
@@ -64,9 +64,6 @@ phương pháp luận hay chuẩn mực.
   nguyên nhân, ảnh hưởng và kiến nghị. Skill cũng tách dữ kiện, suy luận
   và ý kiến. Xem
   [references/audit-findings.md](references/audit-findings.md).
-- **Bảo mật.** Kho công khai chỉ chứa nội dung chung. Tri thức riêng
-  của tổ chức để ở nơi tách biệt. Xem
-  [references/confidentiality.md](references/confidentiality.md).
 - **Phán đoán.** Skill tập hợp bằng chứng và lập luận. Kiểm toán viên
   quyết định, xếp hạng và ký.
 
@@ -167,7 +164,6 @@ evidence-triage/
 │   ├── output-conventions.md
 │   ├── audit-evidence.md          # chuẩn bằng chứng, hồ sơ, chuỗi bảo quản
 │   ├── audit-findings.md          # thực trạng / tiêu chí / nguyên nhân / ảnh hưởng / kiến nghị
-│   ├── confidentiality.md         # quy tắc kho công khai và che dữ liệu
 │   ├── audit-index.md             # điểm vào bộ tài liệu báo cáo kiểm toán
 │   ├── audit-engagement-profile.md
 │   ├── audit-evidence-model.md
@@ -212,7 +208,7 @@ riêng. Giữ những nội dung đó ngoài kho này:
 
 Phần tùy biến riêng có thể nằm ở đâu cũng được, miễn ngoài kho này. Không bao giờ commit dữ liệu
 thật "tạm thời", vì lịch sử git vẫn giữ lại. Xem
-[references/confidentiality.md](references/confidentiality.md).
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Nguồn gốc
 

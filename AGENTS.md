@@ -6,8 +6,8 @@ Guidance for any AI coding agent working in this repository.
 
 `evidence-triage` is a public agent-skill package for internal audit and
 fraud work. It is Markdown-first: `SKILL.md` routes each request, and
-`references/` holds the phase procedures and the evidence, findings,
-and confidentiality rules. There is no application runtime and no build step.
+`references/` holds the phase procedures and the evidence and findings
+rules. There is no application runtime and no build step.
 
 ## Commands
 
@@ -26,7 +26,7 @@ CI runs both. Keep them passing.
 - **Public repository.** Use synthetic examples only. Never add
   employer, client, customer, or personal data, internal system or table
   names, tuned thresholds, or real investigation outputs. See
-  `references/confidentiality.md`.
+  [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Skill frontmatter.** `SKILL.md` must keep `name: evidence-triage`,
   a trigger-rich `description`, and a `version`.
 - **Reference parity.** Every `references/*.md` file must appear in the
@@ -55,9 +55,10 @@ references/fraud-patterns.md
 references/output-conventions.md
 references/audit-evidence.md   Audit evidence and workpapers
 references/audit-findings.md   Finding structure and reporting
-references/confidentiality.md  Public-repo rules and redaction
 references/audit-index.md      Audit reporting set: reading order
 references/audit-*.md          Engagement, evidence, claims, report, review, release
+CONTRIBUTING.md                Public-repo rules, redaction, and review
+SECURITY.md                    Exposure reporting and incident process
 scripts/validate_skill.py      Repository validator
 docs/ARCHITECTURE.md           Component and flow overview
 docs/GITHUB_SETUP.md           Manual GitHub settings checklist

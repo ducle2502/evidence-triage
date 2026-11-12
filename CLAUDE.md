@@ -25,7 +25,7 @@ npx markdownlint-cli2 "**/*.md"     # Markdown lint
 - `README.vi.md` is a parallel translation, not a replacement. Update
   both.
 - Use synthetic examples and generic organization language. Read
-  `references/confidentiality.md` before adding any example.
+  [CONTRIBUTING.md](CONTRIBUTING.md) before adding any example.
 - Cite public standards by name. Do not copy their text.
 - Keep fact, inference, and opinion visibly separate.
 - Do not use emojis as icons in documentation.
