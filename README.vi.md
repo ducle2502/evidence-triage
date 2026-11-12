@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner.svg" alt="Banner evidence-triage">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=2">
+  <img src="assets/banner.svg?v=2" alt="Banner evidence-triage">
 </picture>
 
 # evidence-triage
