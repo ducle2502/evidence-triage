@@ -4,7 +4,7 @@ All work for a session lives in one workspace folder.
 
 ## Workspace folder layout
 
-```
+```text
 {workspace_root}/{YYYY-MM-DD}_{slug}/
 ├── data/
 │   ├── 01_<descriptive-name>.sql
@@ -57,9 +57,10 @@ There's no separate index file — workspace folders are the
 organization structure. To find prior work on a user, device,
 attribute, or signal, grep `{workspace_root}` directly:
 
-```
+```bash
 grep -rli "<user_id or attribute>" {workspace_root}
 ```
 
 The investigation.md in each workspace is grep-able, and so are the
-SQL files in data/. That's the resumption + novelty-check mechanism.
+SQL files in data/. That is how you resume prior work and check whether
+a lead is already covered.

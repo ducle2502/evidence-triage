@@ -1,9 +1,8 @@
 ---
-
-## name: fraud-patterns
-
+name: fraud-patterns
 description: Commonly observed fraud patterns, organized by typology. A field guide for matching what the data is showing to a named typology, and for knowing which signals tend to co-occur within each. Used in hunting (what angles to try), triage (which typology a cluster fits and how to name it), and investigation (which evidence queries discriminate one hypothesis from another).
 type: reference
+---
 
 # Fraud Patterns
 
@@ -20,9 +19,9 @@ disputes can look like first-party dispute fraud in the data. Use the
 verdict that best fits the evidence, and note ambiguity rather than
 forcing a clean bucket.
 
-A given case is also often layered: ATO drains often funnel into mule
-accounts; synthetic identities run bust-outs; first-party dispute
-abuse appears alongside promo abuse on the same device cohort. Look
+Cases are often layered. ATO drains funnel into mule accounts,
+synthetic identities run bust-outs, and first-party dispute abuse
+shows up beside promo abuse on the same device cohort. Look
 for the *primary* driver, then the connected typologies.
 
 ---
@@ -180,9 +179,9 @@ combination.
 
 ## First-Party Fraud
 
-The account holder is the adversary. The legitimate-looking account
-is the fraud vehicle. The defining question is intent at onboarding
-or at the point of the abusive action.
+The account holder is the adversary, and the legitimate-looking
+account is the fraud vehicle; what separates first-party fraud is
+intent, at onboarding or at the moment of the abusive action.
 
 ### Synthetic identity fraud
 
@@ -340,7 +339,7 @@ unauthorized.
 Patterns:
 
 - Deposit-then-withdraw within minutes — funds withdrawn against
-Reg-CC availability before the check has actually cleared.
+Reg-CC availability before the check has cleared.
 - New account with no prior check activity suddenly deposits a
 large check.
 - Multiple checks deposited from different payors, all bouncing.
@@ -393,9 +392,9 @@ cross-lender data is available via a consortium).
 
 ### Promo / referral / bonus abuse
 
-Exploiting onboarding incentives, referral bonuses, or promotional
-credits at scale. Often runs adjacent to multi-accounting and
-synthetic identity.
+Fraud that exploits onboarding incentives, referral bonuses, or
+promotional credits, often alongside multi-accounting and synthetic
+identity.
 
 Patterns:
 
@@ -544,4 +543,3 @@ abandonment.
 - Where a case shows signals from multiple typologies, record the
 combination in the verdict (e.g. *"synthetic identity onboarding
 ring transitioning to bust-out"*). Don't force a single label.
-

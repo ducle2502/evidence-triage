@@ -1,6 +1,6 @@
 # Phase: Investigation
 
-Investigation is the deepest phase. The user has a specific cohort of users
+Investigation goes further than hunting or triage. The user has a specific cohort of users
 or accounts (and maybe a hypothesis about what links them) and wants to
 drive to a conclusion: are these actors coordinated? What are they doing?
 What's the loss exposure? What should fraud-ops do?
@@ -17,8 +17,8 @@ An investigation session produces:
    `investigation.md` for the running document.
 2. **A written conclusion** at the top of `investigation.md` stating
    the hypothesis, the evidence, and the verdict.
-3. **An updated investigation.md** that future grep can find via user
-   IDs, devices, or attributes.
+3. **A findable investigation.md**, with the user IDs, devices, and
+   attributes recorded so a later search turns it up.
 
 An investigation that ends "the hypothesis didn't hold up — these
 users look unrelated" is a valid outcome. Record it the same way; the
@@ -168,10 +168,10 @@ calls.
 
 - **Hypotheses before queries.** Every evidence query should be tied
   to a specific hypothesis it's testing. Running queries without a
-  hypothesis is fishing, and it produces evidence that doesn't help
-  the reader of the final writeup.
+  hypothesis is fishing: it produces evidence the final writeup cannot
+  use.
 - **Negative results are evidence.** A query that returns "the
-  hypothesis isn't supported" is just as valuable as one that
+  hypothesis isn't supported" is just as useful as one that
   confirms it. Record both with equal seriousness.
 - **Time-box per hypothesis.** If one hypothesis is taking 30+
   minutes without converging, step back, write what you've got, and
@@ -180,7 +180,7 @@ calls.
 - **Write `investigation.md` as you go.** It's a running document,
   not something written at the end. Each evidence query adds a
   paragraph. This makes the final verdict easy to write and the
-  workspace readable for future grep.
+  workspace easy to search later.
 - **Don't expand the cohort silently.** If the investigation surfaces
   that the cohort is part of a bigger ring, surface that explicitly
   and ask the user whether to expand the workspace's scope or open
@@ -189,7 +189,7 @@ calls.
 
 ## Output layout
 
-```
+```text
 {workspace_root}/{YYYY-MM-DD}_{slug}/
 ├── data/
 │   ├── 01_cohort.sql           — cohort-producing query

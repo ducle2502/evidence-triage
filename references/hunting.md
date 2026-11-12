@@ -31,10 +31,10 @@ status to surface unmitigated exposure is useful context (see SKILL.md
 "Cohort exposure" for which metrics fit) but optional in hunting —
 don't let it slow the iteration.
 
-Decide for yourself when to loop the user in. Their context is
-valuable when their input would change your next cut, when an angle
-looks cold and the pivot is non-obvious, or when a finding is
-significant enough that they'd want to know now. Don't talk to the
+Decide for yourself when to loop the user in. Their context matters
+when their input would change your next cut, when an angle looks cold
+and the next pivot isn't obvious, or when a result would change what
+they do next. Don't talk to the
 user just to narrate — the chat is the log of the hunt; padding it
 with running commentary makes the actual signal harder to find.
 
@@ -45,7 +45,7 @@ surfaces.
 
 ## Cross-reference before recommending a lead
 
-Before handing a lead to triage, check that it's actually novel:
+Before handing a lead to triage, check that it's novel:
 
 - Grep `{workspace_root}` for every user ID and strong attribute the
   hunt surfaced. Hits mean prior workspaces have already worked on
@@ -57,7 +57,7 @@ Record the verdict in `investigation.md` explicitly.
 
 ## Output layout
 
-```
+```text
 {workspace_root}/{YYYY-MM-DD}_{slug}/
 ├── data/
 │   ├── 01_*.sql        — every query that ran, chronologically numbered

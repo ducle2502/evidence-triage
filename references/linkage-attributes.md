@@ -6,13 +6,13 @@ and how to decide which category a given attribute falls into. Used in
 hunting (cluster discovery), triage (cluster boundary work), and
 investigation (avoiding silent cohort drift).
 
-## The single most important rule
+## The rule that prevents false rings
 
 **Never expand a cluster on a weak signal alone, and never on a single
 moderate signal alone either.** Linkage on weak or single-moderate
-signals is the #1 way fraud investigations produce false coordination
-narratives — finding a "ring" that's actually just shared infrastructure
-used by unrelated actors.
+signals is the most common way fraud investigations produce false
+coordination narratives — finding a "ring" that's just shared
+infrastructure used by unrelated actors.
 
 ## The three categories
 
@@ -23,12 +23,12 @@ definition; the lists below are starting defaults.
 
 ### Strong — links entities on this attribute alone
 
-An attribute qualifies as strong if **two entities sharing the value is,
-on its own, sufficient evidence of linkage.** Two ways this happens:
+An attribute is strong when **a shared value, on its own, is enough to
+conclude that two entities are linked.** Two ways this happens:
 
-**Inherently unique identifiers.** Hard to spoof or share by accident,
-unique enough that two unrelated entities sharing it is highly unlikely,
-durable for a single entity over time.
+**Inherently unique identifiers.** These are hard to spoof or share by
+accident, unlikely to be shared by unrelated entities, and stable for
+one entity over time.
 
 - Hardware device keys / device-attestation identifiers.
 - Payment instrument tokens (same underlying card or bank account).
@@ -116,7 +116,7 @@ The formal ratio test belongs in **investigation**, when the case is
 already scoped and the cost of a couple of extra queries is justified
 by the need to defend a conclusion. The metric is **lift**:
 
-```
+```text
 lift = (n_target / target_size) / (n_general / general_size)
 ```
 
@@ -135,7 +135,7 @@ Thresholds:
 The underlying framework is **Fellegi-Sunter probabilistic record
 linkage** (per-attribute log-likelihood ratios summed across
 attributes); **Weight of Evidence (WoE)** is the same construct under
-a different name. How to actually compute lift and Fisher's exact
+a different name. How to compute lift and Fisher's exact
 (SQL, pandas, scipy, a record-linkage library like Splink, etc.)
 depends on the environment — pick what fits.
 
@@ -180,7 +180,7 @@ are starting points, not absolutes.
 
 ## How this shows up in each phase
 
-**Hunting — go off vibes.** Use the qualitative defaults: prefer
+**Hunting — work from the defaults.** Use the qualitative defaults: prefer
 pivots on attributes that look strong (device key, payment token, a
 counterparty that the cohort surfaces unusually often), use moderate
 attributes as slicing dimensions, ignore weak attributes for linkage.
@@ -189,7 +189,7 @@ plausible patterns, and a full ratio test would burn the cadence. If
 an attribute *looks* concentrated in your cohort relative to what you'd
 expect, treat it as a candidate strong attribute and keep going.
 
-**Triage — still mostly vibes, surface the type to the user.** When
+**Triage — use the defaults and name the linkage type.** When
 proposing cluster boundaries, label each by linkage type (e.g. "cluster
 A: 80 users sharing strong attribute X; cluster B: 50 users sharing 3
 moderate attributes in combination"). The user usually has the context
@@ -198,7 +198,7 @@ general population. Skip the formal ratio test unless the user
 specifically asks for it, or unless a cluster's coherence is genuinely
 contested.
 
-**Investigation — actually compute the ratio.** The case is scoped,
+**Investigation — compute the ratio.** The case is scoped,
 the cohort is known, and the cost of a couple of extra queries to get
 `n_general` is justified by the need to defend the conclusion. Run the
 ratio test on any attribute the case rests on:

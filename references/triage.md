@@ -16,8 +16,8 @@ which alert.
 3. **A user-confirmed pick of which 1–2 alerts to investigate first.**
 
 A triage that returns "all 200 belong to one giant alert" usually
-means the boundary work wasn't done — most large inputs have
-sub-structure worth surfacing. A triage that legitimately finds no
+means the boundary work wasn't done — most large inputs do break into
+smaller groups that change the ranking. A triage that legitimately finds no
 coherent alerts ("uncorrelated one-offs") is also valid; say so
 plainly.
 
@@ -99,7 +99,7 @@ auto-open.
 
 ## Output layout
 
-```
+```text
 {workspace_root}/{YYYY-MM-DD}_{slug}/
 ├── data/
 │   ├── 01_*.sql        — boundary, exposure, follow-up queries
