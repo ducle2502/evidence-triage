@@ -16,8 +16,9 @@ file, a reproduction, and the impact you believe it has.
 
 ## Confidential data exposure
 
-This repository is public. If confidential, personal, or employer data
-has been committed:
+This repository is public. Before you commit, follow the public-repo
+rules and redaction checklist in [CONTRIBUTING.md](CONTRIBUTING.md). If
+confidential, personal, or employer data has been committed:
 
 1. Treat it as a security incident and stop pushing.
 2. Notify the organization's security or compliance contact through the
