@@ -1,7 +1,17 @@
 ---
 name: evidence-triage
-description: Use for internal audit and fraud-analyst work that turns a population of records into evidence: risk sensing and hunting for new patterns, triaging exceptions into a prioritized short-list, and investigating a specific cohort to a documented conclusion. Triggers include internal audit, audit evidence, exception testing, control gaps, workpapers, findings, fraud hunting, fraud triage, ATO / account takeover, first-party fraud, dispute fraud, mule activity, money laundering, suspicious clusters or cohorts, ranking alerts, "look into these accounts", "check this signal", "find what's worth investigating", shared device identifiers, named signals, and vague requests like "anything weird?", "what should I look at?", "spike in X", or "these records look related". The skill classifies the phase and routes accordingly.
-version: 3.0.0
+description: >-
+  Use when working on internal audit evidence or fraud analysis: audit
+  testing, exception populations, control gaps, workpapers, findings,
+  fraud hunting, fraud triage, account takeover, first-party fraud,
+  dispute fraud, mule activity, money laundering, suspicious clusters or
+  cohorts, ranking alerts, shared device identifiers, named signals, or
+  requests such as "anything weird?" or "look into these accounts".
+metadata:
+  category: reference
+  author: duke2502
+  version: 3.0.0
+  triggers: internal audit, audit evidence, exception testing, control gaps, workpapers, findings, fraud hunting, fraud triage, account takeover, ATO, first-party fraud, dispute fraud, mule activity, money laundering, suspicious clusters, ranking alerts, shared device identifiers
 ---
 
 # evidence-triage
