@@ -70,6 +70,49 @@ def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def parse_frontmatter(lines: list[str]) -> tuple[dict[str, str], dict[str, str]]:
+    """Parse top-level keys and the nested metadata map without PyYAML."""
+    top: dict[str, str] = {}
+    meta: dict[str, str] = {}
+    target = top
+    i = 0
+
+    while i < len(lines):
+        raw = lines[i]
+        stripped = raw.strip()
+        i += 1
+
+        if not stripped or stripped.startswith("#"):
+            continue
+
+        indented = raw[:1] in (" ", "\t")
+        key, sep, value = stripped.partition(":")
+        if not sep:
+            continue
+
+        key = key.strip()
+        value = value.strip()
+
+        if not indented:
+            target = meta if key == "metadata" else top
+            if key == "metadata":
+                continue
+
+        if value in (">", ">-", "|", "|-"):
+            parts: list[str] = []
+            while i < len(lines):
+                follow = lines[i]
+                if follow.strip() and follow[:1] not in (" ", "\t"):
+                    break
+                parts.append(follow.strip())
+                i += 1
+            value = " ".join(part for part in parts if part)
+
+        target[key] = value.strip("\"'")
+
+    return top, meta
+
+
 def check_frontmatter() -> str:
     if not SKILL.is_file():
         fail("SKILL.md is missing")
@@ -85,25 +128,33 @@ def check_frontmatter() -> str:
         fail("SKILL.md frontmatter is not closed with ---")
         return text
 
-    front: dict[str, str] = {}
-    for line in parts[1].splitlines():
-        if ":" in line:
-            key, value = line.split(":", 1)
-            front[key.strip()] = value.strip()
+    front, meta = parse_frontmatter(parts[1].splitlines())
 
-    for key in ("name", "description", "version"):
+    for key in ("name", "description"):
         if not front.get(key):
             fail(f"SKILL.md frontmatter is missing '{key}'")
+
+    if not meta.get("version"):
+        fail("SKILL.md metadata is missing 'version'")
+    if not meta.get("triggers"):
+        fail("SKILL.md metadata is missing 'triggers'")
 
     if front.get("name") and front["name"] != "evidence-triage":
         fail(f"SKILL.md name is '{front['name']}', expected 'evidence-triage'")
 
-    version = front.get("version", "")
+    version = meta.get("version", "")
     if version and not re.fullmatch(r"\d+\.\d+\.\d+", version):
         fail(f"SKILL.md version '{version}' is not semver")
 
-    if front.get("description") and len(front["description"]) < 80:
-        fail("SKILL.md description is too short to trigger reliably")
+    description = front.get("description", "")
+    if description and not description.startswith("Use when"):
+        fail("SKILL.md description must start with 'Use when'")
+    if description and len(description) > 500:
+        fail(f"SKILL.md description is {len(description)} characters; keep it under 500")
+
+    triggers = [item.strip() for item in meta.get("triggers", "").split(",")]
+    if len([item for item in triggers if item]) < 3:
+        fail("SKILL.md metadata.triggers needs at least 3 comma-separated keywords")
 
     ok("SKILL.md frontmatter")
     return text
