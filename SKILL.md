@@ -2,16 +2,14 @@
 name: evidence-triage
 description: >-
   Use when working on internal audit evidence or fraud analysis: audit
-  evidence, exception populations, workpapers, findings, fraud hunting,
-  fraud triage, account takeover, first-party fraud, dispute fraud, mule
-  activity, money laundering, suspicious clusters or cohorts, ranking
-  alerts, shared device identifiers, named signals, or requests such as
+  evidence, workpapers, findings, account takeover, first-party fraud,
+  dispute fraud, mule activity, money laundering, or requests such as
   "anything weird?" or "look into these accounts".
 metadata:
   category: technique
   author: duke2502
   version: 3.0.0
-  triggers: internal audit, audit evidence, exception populations, workpapers, findings, fraud hunting, fraud triage, account takeover, ATO, first-party fraud, dispute fraud, mule activity, money laundering, suspicious clusters, ranking alerts, shared device identifiers
+  triggers: internal audit, audit evidence, workpapers, findings, account takeover, ATO, first-party fraud, dispute fraud, mule activity, money laundering
 ---
 
 # evidence-triage
