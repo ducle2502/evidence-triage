@@ -194,7 +194,7 @@ incidents. Keep that material out of this repo:
 
 1. Put it in a private repo or a local folder such as `local/`, which
    `.gitignore` excludes.
-2. Add markdown files for your named signals, schema, typologies,
+2. Add markdown files for your signals, schema, typologies,
    thresholds, and past cases.
 3. Point a private wrapper skill, or a local copy of `SKILL.md`, at
    those files. Do not put internal file names in the public reference

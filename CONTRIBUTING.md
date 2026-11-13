@@ -36,7 +36,7 @@ system, or a live control environment without authorization.
 
 ### Keep organization-specific material outside
 
-Put your team's named signals, schema, thresholds, and past cases in:
+Put your team's signals, schema, thresholds, and past cases in:
 
 - a private repository with its own access controls,
 - a local folder excluded by `.gitignore` (for example `local/`), or

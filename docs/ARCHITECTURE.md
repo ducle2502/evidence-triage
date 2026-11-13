@@ -85,7 +85,7 @@ running document holds the hypotheses, the evidence, and the conclusion.
 ## Public and private
 
 The public repo carries generic methodology, public frameworks, and
-synthetic examples. Named signals, schema, thresholds, and past
+synthetic examples. Signals, schema, thresholds, and past
 incidents belong in a private overlay:
 
 - a private repository, or

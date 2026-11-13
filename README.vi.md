@@ -200,7 +200,7 @@ riêng. Giữ những nội dung đó ngoài kho này:
 
 1. Đặt chúng trong một kho riêng hoặc thư mục cục bộ như `local/`, đã
    được `.gitignore` loại trừ.
-2. Thêm tệp .md cho tín hiệu có tên, lược đồ dữ liệu, kiểu rủi ro,
+2. Thêm tệp .md cho tín hiệu, lược đồ dữ liệu, kiểu rủi ro,
    ngưỡng và sự cố trước đây.
 3. Trỏ tới một gói riêng, hoặc bản sao `SKILL.md` cục bộ, đến các tệp
    đó. Không đưa tên tệp nội bộ vào bảng tham chiếu công khai.
